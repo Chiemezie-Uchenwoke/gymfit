@@ -25,18 +25,3 @@ const yearNum = new Date().getFullYear();
 yearFromDocument.textContent = yearNum;
 
 // Mobile
-const linkedin = document.getElementById("linkedin");
-const github = document.getElementById("github");
-const email = document.getElementById("mail");
-
-linkedin.addEventListener("click", () => {
-    window.open("https://www.linkedin.com/in/chiemezieuche/", "_blank");
-});
-
-github.addEventListener("click", () => {
-    window.open("https://github.com/Chiemezie-Uchenwoke", "_blank");
-});
-
-email.addEventListener("click", () => {
-    window.open("mailto:uchenwoke.chiemezie@gmail.com", "_blank");
-});
