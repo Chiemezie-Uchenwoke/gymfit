@@ -35,7 +35,7 @@
     gap: 1rem;
     border: 1px solid rgba(246, 246, 246, 0.2);
     border-radius: 10px;
-    padding: 1rem 0.5rem;
+    padding: 1rem;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
@@ -54,7 +54,7 @@
 
 .programs__content p{
     filter: brightness(0.6);
-    font-size: 0.95rem;
+    font-size: 0.87rem;
     font-weight: 400;
 }
 
