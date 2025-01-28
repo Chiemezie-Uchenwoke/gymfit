@@ -1,0 +1,199 @@
+.hero {
+    padding: 2rem 0;
+    position: relative;
+    width: 100%;
+    height: 30rem;
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    /* display: flex;
+    align-items: center; */
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../images/gym3.jpg);
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.hero h1{
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.hero .col{
+    color: var(--sec-color);
+}
+
+.hero-inner{
+    display: flex;
+    align-items: center;
+}
+
+.hero_inner_content{
+    width: 100%;
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.hero p{
+    color: var(--white);
+    font-size: 1rem;
+    letter-spacing: 0.3px;
+}
+
+.hero button{
+    border: none;
+    background-color: var(--sec-color);
+    color: var(--white);
+    padding: 0.8rem 3rem;
+    font-size: 1rem;
+    margin-top: 0.8rem;
+    text-transform: capitalize;
+    border-radius: 10px;
+    cursor: pointer;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.hero button i{
+    transform: rotate(45deg);
+}
+
+.hero button:hover{
+    filter: brightness(0.8);
+    transition: 0.3s;
+}
+
+.hero-disp-text{
+    width: 8.5rem;
+    height: 5rem;
+    overflow: hidden;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+.hero-disp-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+    height: auto;
+    padding-top: 0.5rem;
+}
+
+.hero-disp-inner > div > p:nth-child(1){
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.hero-disp-inner > div > p:nth-child(2){
+    font-size: 0.7rem;
+}
+
+.hero-disp-inner::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+    opacity: 0.1;
+}
+
+.hero-disp-text i{
+    color: var(--sec-color);
+}
+
+.ani-lift{
+    position: absolute;
+    bottom: 1rem;
+    animation: roll 5s ease-in-out infinite;
+}
+
+.ani-lift i{
+    font-size: 1.2rem;
+    filter: brightness(0.7);
+}
+
+@keyframes roll{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(10rem);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@media (min-width: 600px){
+    .hero h1{
+        font-size: 3rem;
+    }
+
+    .hero_inner_content{
+        max-width: 32rem;
+    }
+
+    .ani-lift i{
+        font-size: 1.3rem;
+    }
+    
+}
+
+@media (min-width: 1000px){
+    .hero{
+        padding: 3rem 0;
+    }
+
+    .hero h1{
+        font-size: 4rem;
+        filter: brightness(1.1);
+    }
+
+    .hero p{
+        font-size: 1.2rem;
+    }
+
+    .hero_inner_content{
+        max-width: 38rem;
+    }
+
+    .hero button{
+        font-size: 1.2rem;
+    }
+
+    .hero-disp-text{
+        right: 6rem;
+    }
+
+    .ani-lift i{
+        font-size: 1.5rem;
+    }
+
+    .ani-lift{
+        bottom: 2.5rem;
+    }
+    
+}
