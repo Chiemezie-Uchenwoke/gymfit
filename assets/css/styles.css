@@ -6,9 +6,9 @@
 }
 
 :root{
-    --pri-color: #0d0d0d;
+    --pri-color: #010217;
     --acc-color-dark: #1E3E62;
-    --sec-color: #FF6500;
+    --sec-color: #FFC107;
     --white: #f6f6f6;
     --text-color: #94a3b8;
 }
@@ -89,7 +89,7 @@ li {
     all: unset;
     cursor: pointer;
     background-color: var(--sec-color);
-    color: var(--white);
+    color: var(--pri-color);
     width: 2.5rem;
     height: 2.5rem;
     border-radius: 50%;

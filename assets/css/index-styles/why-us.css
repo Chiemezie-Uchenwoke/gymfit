@@ -10,7 +10,7 @@
 .why_choose_us > div:nth-child(1){
     overflow: hidden;
     border-radius: 10px;
-    border: 1px solid rgba(255, 101, 0, 0.7);
+    border: 1px solid rgba(255, 193, 7, 0.7);
     max-height: 22rem;
 }
 
@@ -55,7 +55,8 @@
 .why_choose_us button{
     border: none;
     background-color: var(--sec-color);
-    color: var(--white);
+    color: var(--pri-color);
+    font-weight: 600;
     padding: 0.8rem 3rem;
     font-size: 1rem;
     margin-top: 0.8rem;
@@ -89,7 +90,7 @@
 
 .why_choose_us ul i{
     font-size: 0.4rem;
-    color: #FF6500;
+    color: var(--sec-color);
     filter: brightness(0.8);
 }
 

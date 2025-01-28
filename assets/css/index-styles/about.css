@@ -38,7 +38,8 @@
 .about button{
     border: none;
     background-color: var(--sec-color);
-    color: var(--white);
+    color: var(--pri-color);
+    font-weight: 600;
     padding: 0.8rem 3rem;
     font-size: 1rem;
     margin-top: 0.8rem;
@@ -66,7 +67,7 @@
     overflow: hidden;
     border-radius: 10px;
     position: relative;
-    border: 1px solid rgba(255, 101, 0, 0.7);
+    border: 1px solid rgba(255, 193, 7, 0.7);
     max-height: 20rem;
 }
 

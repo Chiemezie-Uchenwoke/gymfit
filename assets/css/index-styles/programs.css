@@ -78,13 +78,19 @@
 
 .programs__content .icon i{
     font-size: 1.5rem;
+    color: var(--pri-color);
+}
+
+.programs__content > div:hover i{
+    color: var(--sec-color);
 }
 
 .programs button{
     align-self: flex-start;
     border: none;
     background-color: var(--sec-color);
-    color: var(--white);
+    color: var(--pri-color);
+    font-weight: 600;
     padding: 0.8rem 3rem;
     font-size: 1rem;
     margin-top: 0.8rem;
