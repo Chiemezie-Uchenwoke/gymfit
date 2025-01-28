@@ -10,7 +10,7 @@
 .why_choose_us > div:nth-child(1){
     overflow: hidden;
     border-radius: 10px;
-    border: 1px solid rgba(255, 193, 7, 0.7);
+    border: 1px solid rgba(255, 193, 7, 0.4);
     max-height: 22rem;
 }
 
